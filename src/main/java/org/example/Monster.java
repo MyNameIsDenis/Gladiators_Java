@@ -5,6 +5,12 @@ public class Monster {
     int attack;
     int hp;
 
+    public Monster(int attack, int hp, String name) {
+        this.attack = attack;
+        this.name = name;
+        this.hp = hp;
+    }
+
     public String getName() {
         return name;
     }
